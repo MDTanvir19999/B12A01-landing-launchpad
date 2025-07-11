@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -8,12 +13,53 @@
 }
 
 /* nav */
-nav{
-    display:flex
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.nav-logo {
-    font-size: 34px;
-    font-weight: 700;
-    color: #4E47FF;
+.header {
+  background: #FFFFFF;
+  padding: 2rem 0;
+  text-align: center;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #4E47FF;
+}
+
+.btn {
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.icon-box {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+
+.center {
+  text-align: center;
+}
+
