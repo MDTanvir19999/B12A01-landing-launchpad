@@ -1,0 +1,19 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wght" 700;
+}
+
+/* nav */
+nav{
+    display:flex
+}
+
+.nav-logo {
+    font-size: 34px;
+    font-weight: 700;
+    color: #4E47FF;
+}
